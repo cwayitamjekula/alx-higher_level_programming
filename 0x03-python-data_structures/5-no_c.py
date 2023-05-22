@@ -4,5 +4,5 @@ def no_c(my_string):
     for n in (my_string):
         if n == "C" or n == "c":
             continue
-        newWord += i
+        newWord += n
     return newWord
