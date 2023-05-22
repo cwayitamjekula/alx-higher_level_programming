@@ -8,4 +8,4 @@ def best_score(a_dictionary)
                 sLarg = n
         return sLarg
     else:
-        return
+        return sList
