@@ -1,10 +1,13 @@
 #!/usr/bin/python3
-class Square():
-    """Square class """
-    def __init__(self, size=0):
-        """ size is private """
-        self.size = size
+ """ square class """
 
+class Square():
+    """ square class wit private attribute"""
+    
+    def __init__(self, size=0):
+        """size is a private attribute"""
+        self.__size = size
+        
     @property
     def size(self):
         """get the size of the square"""

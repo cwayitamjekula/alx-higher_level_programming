@@ -1,10 +1,13 @@
 #!/usr/bin/python3
+ """ square class """
 
 class Square():
-   
-    def __init__(self, size=0, position=(0, 0)):
-        """ size: size of the square
-            position: postion of the square """
+    """ square class wit private attribute"""
+    
+    def __init__(self, size=0):
+        """size is a private attribute
+        position: postion of the square """
+        self.__size = size  
         if type(size) is not int:
             raise TypeError("make sure size is an integer")
         if size < 0:

@@ -1,10 +1,12 @@
 #!/usr/bin/python3
+ """ square class """
 
 class Square():
-    """square class"""
-    __size = None
-
+    """ square class wit private attribute"""
+    
     def __init__(self, size=0):
+        """size is a private attribute"""
+        self.__size = size
         
         if size != int(size):
             raise TypeError("make sure size is an integer")
