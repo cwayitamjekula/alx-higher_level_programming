@@ -1,0 +1,1 @@
+workng with errors and exceptions
