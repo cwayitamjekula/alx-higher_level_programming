@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-class Square:
+class Square():
     """ size set as a private attribute """
     def __init__(self, size=0):
         """ size: size of the square """

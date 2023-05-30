@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-class Square:
+class Square():
    
     def __init__(self, size=0):
         """ size: size of the square """
@@ -29,7 +29,7 @@ class Square:
             if value < 0:
                 raise ValueError("size can not be negative")
             self.__size = value
-            
+
             def my_print(self):
                 """Printing square with # """
                 if self.__size == 0:
