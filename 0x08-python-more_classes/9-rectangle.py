@@ -4,7 +4,13 @@
 
 
 class Rectangle:
-    """rectangle class"""
+    """rectangle class
+    
+           Attributes:
+            width: A private instance with optional type
+            height: A private instance with optional type
+
+    """
         number_of_instances = 0
     print_symbol = '#'
 
