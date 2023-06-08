@@ -2,17 +2,14 @@
 
 """Creating rectangle class"""
 
-
 class Rectangle:
     """rectangle class"""
-     number_of_instances = 0
+    number_of_instances = 0
     print_symbol = '#'
-
     def __init__(self, width=0, height=0):
         """Initialize class."""
         self.width = width
         self.height = height
-        type(self).number_of_instances += 1
 
     @property
     def width(self):
@@ -47,7 +44,7 @@ class Rectangle:
         return self.__width * self.__height
 
     def perimeter(self):
-        """Returns  perimeter."""
+        """Returns perimeter."""
         if self.__width == 0 or self.__height == 0:
             return 0
         else:
