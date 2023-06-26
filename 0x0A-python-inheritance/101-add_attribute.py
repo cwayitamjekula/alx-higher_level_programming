@@ -3,6 +3,7 @@
     101-add_attribute: add_attribute()
 """
 
+
 def add_attribute(cls, name, value):
     """
         adds a new attribute if possible.

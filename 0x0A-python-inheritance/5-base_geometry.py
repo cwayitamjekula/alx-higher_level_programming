@@ -3,6 +3,7 @@
     5-base_geometry: class BaseGeometry
 """
 
+
 class BaseGeometry:
     """
         An empty class.

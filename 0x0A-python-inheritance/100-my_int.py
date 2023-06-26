@@ -3,6 +3,7 @@
     100-my_int: class MyInt implements int
 """
 
+
 class MyInt(int):
     """
         MyInt implements int. (inherits from)

@@ -3,7 +3,9 @@
     7-rectangle: class Rectangle from BaseGeomerty
 """
 
+
 BaseGeometry = __import__('7-base_geometry').BaseGeometry
+
 
 class Rectangle(BaseGeometry):
     """
