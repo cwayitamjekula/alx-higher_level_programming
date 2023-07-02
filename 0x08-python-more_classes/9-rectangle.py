@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 
-"""Creating rectangle class"""
+"""
+This module creates a class called Rectangle.
+"""
 
 
 class Rectangle:
@@ -11,7 +13,7 @@ class Rectangle:
             height: A private instance with optional type
 
     """
-        number_of_instances = 0
+    number_of_instances = 0
     print_symbol = '#'
 
     def __init__(self, width=0, height=0):

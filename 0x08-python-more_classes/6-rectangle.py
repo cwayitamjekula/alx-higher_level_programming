@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 
-"""Creating rectangle class"""
+"""
+This module creates a class called Rectangle.
+"""
 
 class Rectangle:
        """rectangle class
