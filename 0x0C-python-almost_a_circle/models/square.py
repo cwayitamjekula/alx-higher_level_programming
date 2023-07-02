@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+
 """
 contains class Square which implements Rectangle.
 """
