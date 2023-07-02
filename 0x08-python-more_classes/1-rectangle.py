@@ -7,7 +7,7 @@ This module creates a class called Rectangle.
 
 class Rectangle:
         """rectangle class
-    
+
            Attributes:
             width: A private instance with optional type
             height: A private instance with optional type
@@ -17,7 +17,7 @@ class Rectangle:
         """Initialize class."""
         self.width = width
         self.height = height
-        
+    
         """
         checking if height and width are integers
 
