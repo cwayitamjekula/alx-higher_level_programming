@@ -17,7 +17,7 @@ class Rectangle:
         """Initialize class."""
         self.width = width
         self.height = height
-    
+
         """
         checking if height and width are integers
 

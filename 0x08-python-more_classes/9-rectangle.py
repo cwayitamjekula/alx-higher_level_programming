@@ -7,8 +7,7 @@ This module creates a class called Rectangle.
 
 class Rectangle:
     """rectangle class
-
-           Attributes:
+            Attributes:
             width: A private instance with optional type
             height: A private instance with optional type
 

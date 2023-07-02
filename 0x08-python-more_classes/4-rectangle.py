@@ -15,7 +15,7 @@ class Rectangle:
         """Initialize class."""
         self.width = width
 <<<<<<< HEAD
-        self.height = height   
+        self.height = height
         """
         checking if height and width are integers
 
@@ -33,7 +33,7 @@ class Rectangle:
 =======
         self.height = height
         type(self).number_of_instances += 1
-  
+
 >>>>>>> b85bfa74235b1b74f604ff2286f20269a691a608
     @property
     def width(self):
